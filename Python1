@@ -1,0 +1,11 @@
+word = input('Введите слово: ')
+x = 0
+y = 0
+if len(word) % 2 == 0:
+    x = len(word)
+    y = x // 2
+    print(word[y-1]+word[y])
+else: 
+    x = len(word)
+    y = x // 2
+    print(word[y])
